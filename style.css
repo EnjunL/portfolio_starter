@@ -14,7 +14,7 @@ h2 {
   
 }
 body {
-  background-color: #99ccff;
+  background-color: #ccdfff;
 }
 .navbar {
   display: flex;
@@ -29,7 +29,7 @@ body {
   border-radius: 10%;
   margin: 2px;
   text-align: center;
-  background-color: #99ccff; 
+  background-color: #ccdfff; 
 }
 .projects {
   padding: 7px;
@@ -37,7 +37,7 @@ body {
   border-radius: 10%;
   margin: 2px;
   text-align: center;
-  background-color: #99ccff; 
+  background-color: #ccdfff; 
 }
 .contacts {
   padding: 7px;
@@ -45,7 +45,7 @@ body {
   border-radius: 10%;
   margin: 2px;
   text-align: center;
-  background-color: #99ccff; 
+  background-color: #ccdfff; 
 }
 .cat {
   display: flex;
