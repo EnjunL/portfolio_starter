@@ -1,27 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<html>
 
-    <title>Hello!</title>
+<head>
+  <title>Tic Tac Toe Project</title>
+  <!-- Link CSS here -->
+  <link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
 
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="./style.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- import the webpage's javascript file -->
-    <script src="./script.js" defer></script>
-  </head>
-  <body>
-    <div class="navbar">
-      <a class="aboutme" href="about.html"> About Me</a>
-      <a class="projects" href="projects.html"> My Projects</a>
-      <a class="contacts" href="contacts.html"> My Contact Info</a>
+<body>
+
+    <h1>Tic Tac Toe</h1>
+
+    <div class="container">
+
+        <div id="tile1" class="tile right bottom">
+            <button id="button1"></button>
+        </div>
+        <div id="tile2" class="tile right bottom">
+            <button id="button2"></button>
+        </div>
+        <div id="tile3" class="tile bottom">
+            <button id="button3"></button>
+        </div>
+        <div id="tile4" class="tile right bottom">
+            <button id="button4"></button>
+        </div>
+        <div id="tile5" class="tile right bottom">
+            <button id="button5"></button>
+        </div>
+        <div id="tile6" class="tile bottom">
+            <button id="button6"></button>
+        </div>
+        <div id="tile7" class="tile right">
+            <button id="button7"></button>
+        </div>
+        <div id="tile8" class="tile right">
+            <button id="button8"></button>
+        </div>
+        <div id="tile9" class="tile">
+            <button id="button9"></button>
+        </div>
     </div>
-    <h1>
-      Hi, my name is Enjun and I go to John O' Connell as an 11th grader
-    </h1>
-  </body>
+
+  <!-- Link JQuery here -->
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <!-- Link script.js here -->
+  <script src="js/script.js"></script>
+</body>
+
 </html>

@@ -1,104 +1,55 @@
-# Unit 1: Online Portfolio README
+# Tic-Tac-Toe Project
 
-## Overview
-
-In this unit, coders will review HTML and CSS concepts from the Introduction to Web Development course and build a multi-page professional Portfolio.
+## Overview:
+In this unit, coders will create the classic game of tic tac toe in their browser! The user will input moves as player X or O on a tic tac toe board. When a player wins, the game will end and a message will display the winner.
 
 ## Day 1
 
-### Set up
+#### Planning
+- [ ] Complete the project planning document.
+#### Set-Up
+- [x] Go to the repository
+- [ ] Fork this repository to your github account and import into a new Glitch project
+- [ ] Make your site live on gh-pages
+- [ ] Submit your website using the link on the Agenda
 
-- [x] Complete the [Project Planning Document](https://docs.google.com/document/d/1_fKb8tA-WGM5TseeW_HNo69xMmTSsvWVoy7N0ewsQKU/edit#heading=h.xbxb68gln6b2).
+### JavaScript
+- [x] Declare a variable that keeps track of the current player and set it equal to either a string of "X" or "O"
+- [x] Declare a variable that keeps track of the total number of turns taken and set it equal to 0
+- [x] Declare a variable of a boolean type that will signal whether or not the game has ended and set it equal to false
+- [x] Declare a function with two parameters that removes the button of the corresponding ID, and changes the text of the div that is the tileId to the player variable.
+- [x] Declare a function with 0 parameters that will change the current player to either "X" or "O" depending on the current player. Decide where to call this function.
 
-- [x] Go to the repository.
-
-- [x] Fork this repository to your GitHub account.
-
-- [x] Create a new project on Glitch that imports your repo from GitHub.
-
-- [ ] Submit your GitHub repo link and Glitch Project Page links on the Agenda.
-
-### HTML
-
-- [ ] Add a header with your name to your Portfolio homepage.
-
-- [ ] Update the title tag of both of your pages.
-
-- [ ] Create your navigation bar that will link all your pages together.
-
-- [ ] Give your HTML elements classes in order to add Flexbox to the CSS.
-
-- [ ] Write your biography on your About Me page.
-
-### CSS
-
-- [ ] Choose 2-4 colors for your theme and add them as font or background colors.
-
-- [ ] Add flexbox to your navigation bar.
-
-- [ ] Add at least 1 Google Font.
-
-### Wrap
-
-- [ ] Submit your work to the session agenda.
+#### Wrap
+- [ ] Save and submit your website using the link on the session agenda.
 
 ## Day 2
 
-### Set Up
+### JavaScript
+- [x] Declare a function with 3 parameters of the tileIds, and return if the value of the each of the tileIds are equal to the current player. This function will check if the player has won.
+- [x] Declare a function that will call the function above on all of the vertical combinations of tiles.
+- [x] Declare a function that will call the function above on all of the horizontal combinations of tiles
+- [x] Declare a function checkDiagonalWins that will call the function above on all of the diagonal combinations
 
-- [ ] Link your homepage and About Me pages together using your nav bar.
+## Day 3
 
-- [ ] Add two more HTML files (Projects, Contact) to your Portfolio and link them all together.
+### JavaScript
+- [ ] Implement behavior that will change the title to "It's a draw!" and end the game by changing the boolean variable to true after 9 pieces are placed. Do this by writing a function that will add 1 to the current turns, and check if that counter has reached 9.
+- [ ] In each of the win functions, if the win condition is satisfied, set the end game variable to true, and change the title to "[Player] Wins!"
+- [ ] Update your functions to check if the game has ended first before placing a piece.
+- [ ] Determine the appropriate location to place the Win functions
 
-- [ ] Upload at least 2 images so they are hosted in your Portfolio.
+#### Wrap
+- [ ] Push your changes!
 
-- [ ] Update the title tags of all your new HTML files.
-
-- [ ] Link your CSS file to all of your HTML files.
-
-### HTML
-
-- [ ] Add a professional headshot of yourself.
-
-In your Projects page, create a display of at least 4 of your old coding projects that includes:
-
-    - [ ] Project name
-    - [ ] Link to project GitHub repo
-    - [ ] Link to project live site
-    - [ ] Short description of project including coding languages used
-    - [ ] Hosted screenshot of project
-
-Add your contact information to your Contact page, including your:
-
-    - [ ] GitHub account
-    - [ ] Email address
-    - [ ] LinkedIn
-    - [ ] Resume
-
-### CSS
-
-- [ ] Format the sizes of all your pictures
-
-### Wrap
-
-- [ ] Push your changes back to your GitHub repo!
-
-
-## Project Extensions
-
-- [ ] Style your nav bar so the links change color/style when your hover over them or when you click them.
-
-- [ ] Add a unordered or ordered list of your accomplishments or favorite things to your About Me page.
-
-- [ ] Make sure all your external links open up into new tabs.
-
-- [ ] Create a link that pops open the email browser with your email address in the to: field.
-
-- [ ] Arrange your Projects into a creative interactive or animated photo gallery or slideshow.
+## Project Extensions:
+- [ ] Add in your own css to personalize your project
+- [ ] Create a button that will reset the game back to the original (this requires clearing the Xs and Os, and putting the "move" buttons back)
+- [ ] Keep track of the score between the two players: X wins, O wins, and draws
+- [ ] Change the 9 button functions to instead be one generic function on the button selector
+- [ ] Change the board to be 4x4 and end the game when there is a 4 in a row
 
 ## References/Tools
-
-* [Fellowship Reference Table](https://docs.google.com/document/d/1qrY2OC-6S04oOXZlYmXja7lmKBmdApR-HXJkhfd67e8/edit)
-* [W3Schools] (https://www.w3schools.com/)
-* [MDN web docs] (https://developer.mozilla.org/en-US/)
-* [Introduction to Bootstrap] (https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+* [Advanced Reference Table](https://docs.google.com/document/d/1SElvLDvtVOoYZJyR5XbCQJWbSTxyChDiQkz7n3c63Go/preview)
+* [How Jquery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
+* [JQuery Events](http://api.jquery.com/category/events/)
