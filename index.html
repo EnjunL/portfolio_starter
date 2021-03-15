@@ -1,51 +1,44 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-  <title>Tic Tac Toe Project</title>
-  <!-- Link CSS here -->
-  <link type="text/css" rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-
-    <h1>Tic Tac Toe</h1>
-
-    <div class="container">
-
-        <div id="tile1" class="tile right bottom">
-            <button id="button1"></button>
-        </div>
-        <div id="tile2" class="tile right bottom">
-            <button id="button2"></button>
-        </div>
-        <div id="tile3" class="tile bottom">
-            <button id="button3"></button>
-        </div>
-        <div id="tile4" class="tile right bottom">
-            <button id="button4"></button>
-        </div>
-        <div id="tile5" class="tile right bottom">
-            <button id="button5"></button>
-        </div>
-        <div id="tile6" class="tile bottom">
-            <button id="button6"></button>
-        </div>
-        <div id="tile7" class="tile right">
-            <button id="button7"></button>
-        </div>
-        <div id="tile8" class="tile right">
-            <button id="button8"></button>
-        </div>
-        <div id="tile9" class="tile">
-            <button id="button9"></button>
-        </div>
+<html lang="en">
+  <head>
+    <title>Color Practice</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+  </head>  
+  <body>
+    <h1>Variable & Function Practice </h1>
+    <div id="challenges">
+      <div id="exercise1">
+        <strong>Exercise 1:</strong> div background turns red when complete
+      </div>   
+      <div id="exercise2">
+        <strong>Exercise 2:</strong> div background turns orange when complete
+      </div>   
+      <div id="exercise3">
+        <strong>Exercise 3:</strong> div background turns yellow when complete
+      </div>  
+      <div id="exercise4">
+        <strong>Exercise 4:</strong> div background turns green when complete
+      </div>  
+      <div id="exercise5">
+        <strong>Exercise 5:</strong> div background turns blue when complete
+      </div>  
+      <button id="toggle">
+        <strong>Exercise 6:</strong> Toggle page background
+      </button>
     </div>
-
-  <!-- Link JQuery here -->
-  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-  <!-- Link script.js here -->
-  <script src="js/script.js"></script>
-</body>
-
+    
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
 </html>
